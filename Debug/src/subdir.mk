@@ -4,16 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/CONCURRENT_HOPSCOTCH_HASHING.cpp \
-../src/ConcurrentHopscotchHashSet.cpp 
+../src/CONCURRENT_HOPSCOTCH_HASHING.cpp 
 
 OBJS += \
-./src/CONCURRENT_HOPSCOTCH_HASHING.o \
-./src/ConcurrentHopscotchHashSet.o 
+./src/CONCURRENT_HOPSCOTCH_HASHING.o 
 
 CPP_DEPS += \
-./src/CONCURRENT_HOPSCOTCH_HASHING.d \
-./src/ConcurrentHopscotchHashSet.d 
+./src/CONCURRENT_HOPSCOTCH_HASHING.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
